@@ -1,5 +1,6 @@
 apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven' // 增加
+apply plugin: 'checkstyle'
 group='com.github.Diegoing'
 android {
     compileSdkVersion 28
