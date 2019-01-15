@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="EasySeekBar">
+        <attr name="configuration" format="string"/>
+        <attr name="progress_bg_color" format="color"/>
+        <attr name="progress_color" format="color"/>
+        <attr name="circle_r" format="dimension"/>
+        <attr name="line" format="dimension"/>
+        <attr name="circle_color" format="color"/>
+        <attr name="max_progress" format="integer"/>
+        <attr name="min_progress" format="integer"/>
+        <attr name="progress_with" format="integer"/>
+    </declare-styleable>
+
+</resources>

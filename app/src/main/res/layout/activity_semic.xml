@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SemicActivity">
+    <com.diegoing.view.seekbar.EasySeekBar
+        android:id="@+id/esb_s1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:configuration="semicircle"
+        app:progress_bg_color="#EE82EE"
+        app:progress_color="@color/colorPrimary"
+        app:max_progress="500"
+        app:min_progress="50"
+        app:circle_r="10dp"
+        app:line="100dp"
+        app:progress_with="10"
+        app:circle_color="@color/colorPrimaryDark"
+        android:layout_centerHorizontal="true"
+        />
+
+    <com.diegoing.view.seekbar.EasySeekBar
+        android:id="@+id/esb_s2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:configuration="semicircle"
+        app:progress_bg_color="@color/colorAccent"
+        app:progress_color="#FFC125"
+        app:max_progress="500"
+        app:min_progress="50"
+        app:circle_r="3dp"
+        app:line="100dp"
+        app:progress_with="30"
+        app:circle_color="@color/colorPrimaryDark"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        />
+</RelativeLayout>

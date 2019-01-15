@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VerticalActivity">
+    <com.diegoing.view.seekbar.EasySeekBar
+        android:id="@+id/esb_v1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:configuration="vertical"
+        app:progress_bg_color="@color/colorAccent"
+        app:progress_color="@color/colorPrimary"
+        app:max_progress="100"
+        app:min_progress="50"
+        app:circle_r="10dp"
+        app:line="200dp"
+        app:circle_color="@color/colorPrimaryDark"
+        app:progress_with="15"
+        android:layout_marginLeft="50dp"
+        />
+
+    <com.diegoing.view.seekbar.EasySeekBar
+        android:id="@+id/esb_v2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:configuration="vertical"
+        app:progress_bg_color="#999999"
+        app:progress_color="#ffffff"
+        app:max_progress="100"
+        app:min_progress="50"
+        app:circle_r="10dp"
+        app:line="200dp"
+        app:circle_color="@color/colorAccent"
+        android:layout_marginLeft="150dp"
+        app:progress_with="40"
+        />
+
+    <com.diegoing.view.seekbar.EasySeekBar
+        android:id="@+id/esb_v3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:configuration="vertical"
+        app:progress_bg_color="@color/colorAccent"
+        app:progress_color="@color/colorPrimary"
+        app:max_progress="100"
+        app:min_progress="50"
+        app:circle_r="3dp"
+        app:line="200dp"
+        app:circle_color="@color/colorPrimaryDark"
+        android:layout_marginLeft="250dp"
+        app:progress_with="50"
+        />
+
+    <Button
+        android:id="@+id/bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="设置"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>
