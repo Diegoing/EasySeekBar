@@ -56,6 +56,6 @@ An Android Seekbar
  # Thanks
     
     
-   [csdn]（https://blog.csdn.net/Diegoing/article/details/86482876）
+  (https://blog.csdn.net/Diegoing/article/details/86482876）
     
    
